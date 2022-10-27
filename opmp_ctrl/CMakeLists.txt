@@ -16,6 +16,7 @@ find_package(catkin REQUIRED
     std_msgs
     message_generation
     dynamixel_sdk
+    dynamixel_sdk_examples
 )
 
 ################################################################################
