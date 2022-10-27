@@ -74,3 +74,7 @@ target_link_libraries(sync_read_write_node_arm ${catkin_LIBRARIES})
 install(TARGETS sync_read_write_node_arm
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+install(PROGRAMS example/opmp_test.py
+   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
