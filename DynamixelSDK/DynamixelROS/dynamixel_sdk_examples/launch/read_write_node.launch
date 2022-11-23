@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+    
+	<node pkg="dynamixel_sdk_examples" type="read_write_node.py" name="read_write_node" output="screen"/>
+
+</launch>
